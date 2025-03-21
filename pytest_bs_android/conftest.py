@@ -10,7 +10,7 @@ import pytest
 def driver():
     options = UiAutomator2Options().load_capabilities({
         # Set URL of the application under test
-        "app": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
+        "app": "bs://8b3808506a2b3a3446d61e60f6973e9cb6aaa681",
         # Specify device and os_version for testing
         "platformVersion": "9.0",
         "deviceName": "Google Pixel 3",
